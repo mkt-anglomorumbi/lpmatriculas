@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Colégio Anglo Morumbi — Matrículas 2026</title>
+  <meta name="description" content="Matrículas Abertas 2026 - Colégio Anglo Morumbi. Inovação, bilinguismo, socioemocional e novo prédio do Ensino Médio." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#ffffff;
+      --accent:#0b4a6f;
+      --muted:#686f73;
+      --gold:#caa14a;
+      --container:1100px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color:#222;
+      background:var(--bg);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+    }
+    .wrap{max-width:var(--container);margin:0 auto;padding:28px;}
+    header{
+      display:flex;align-items:center;justify-content:space-between;padding:18px 0;
+      border-bottom:1px solid #eee;
+    }
+    .brand{
+      display:flex;gap:14px;align-items:center;
+    }
+    .brand .logo{
+      width:68px;height:68px;background:#eee;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700;color:#666;
+      font-size:14px;
+    }
+    .brand h1{margin:0;font-size:18px}
+    nav a{margin-left:18px;color:var(--accent);text-decoration:none;font-weight:600}
+    .hero{
+      display:grid;grid-template-columns:1fr 420px;gap:32px;align-items:center;margin:28px 0 48px;
+    }
+    .hero .left{
+      padding:28px;border-radius:14px;
+      background: linear-gradient(180deg, rgba(11,74,111,0.06), rgba(11,74,111,0.02));
+    }
+    .kicker{display:inline-block;background:var(--gold);color:#fff;padding:6px 10px;border-radius:999px;font-weight:700;font-size:12px}
+    .main-title{font-family:Merriweather, serif;font-size:40px;margin:12px 0 8px;line-height:1.05;color:var(--accent)}
+    .lead{color:var(--muted);font-size:16px;margin-bottom:18px}
+    .cta{
+      display:inline-block;padding:12px 18px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:700;
+      box-shadow:0 6px 18px rgba(11,74,111,0.12);
+    }
+    .hero .card{
+      background:#fff;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.06);padding:18px;
+      text-align:center;
+    }
+    .hero .card img{max-width:100%;border-radius:8px}
+    section{margin-bottom:36px;padding:18px 12px}
+    .section-title{font-size:20px;color:var(--accent);margin-bottom:8px;font-weight:700}
+    .text-muted{color:var(--muted);font-size:15px}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+    ul.features{padding-left:18px;color:var(--muted)}
+    .building{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;align-items:start}
+    .feature-card{background:#fcfcfc;border-radius:10px;padding:14px;box-shadow:0 6px 12px rgba(0,0,0,0.04)}
+    .address{font-weight:600;margin-top:8px}
+    footer{border-top:1px solid #eee;padding:18px 0;margin-top:36px;color:#666;font-size:14px;display:flex;justify-content:space-between;align-items:center}
+    @media (max-width:980px){
+      .hero{grid-template-columns:1fr}
+      .two-col, .building{grid-template-columns:1fr}
+      header{flex-direction:column;align-items:flex-start;gap:12px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">AM</div>
+        <div>
+          <h1>Colégio Anglo Morumbi</h1>
+          <div style="color:var(--muted);font-size:13px">Educação Infantil — Ensino Fundamental — Ensino Médio</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#missao">Nossa Missão</a>
+        <a href="#ciclos">Ciclos</a>
+        <a href="#bilingue">Bilinguismo</a>
+        <a href="#novo-predio">Novo Prédio</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Matrículas Abertas">
+        <div class="left">
+          <span class="kicker">MATRÍCULAS ABERTAS 2026</span>
+          <h2 class="main-title">No Colégio Anglo Morumbi, transformamos conhecimento em oportunidades.</h2>
+          <p class="lead">
+            Acreditamos que o futuro se constrói hoje: com excelência acadêmica, inovação, formação humana e resultados que inspiram.
+            Somos referência em aprovações e preparamos nossos alunos para trilhar o caminho do sucesso com confiança e propósito.
+          </p>
+          <p><a class="cta" href="#contato">Inscreva-se / Saiba mais</a></p>
+        </div>
+
+        <aside class="card" aria-hidden="false">
+          <!-- Substitua por imagem exportada do PDF -->
+          <img src="assets/hero-placeholder.jpg" alt="Imagem representativa — Anglo Morumbi">
+          <p style="margin:12px 0 0;font-weight:700;color:var(--accent)">Conheça o Espaço do Futuro — Novo Prédio do Ensino Médio 2026</p>
+        </aside>
+      </section>
+
+      <section id="missao">
+        <div class="section-title">Nossa Missão</div>
+        <p class="text-muted">
+          O Colégio Anglo Morumbi tem como missão promover o desenvolvimento pleno dos alunos por meio de um aprendizado de excelência que valoriza o protagonismo estudantil, a responsabilidade e o despertar de lideranças. Estimulamos o pensamento inovador, a criatividade e as competências socioemocionais, potencializando a grandeza de cada estudante.
+        </p>
+      </section>
+
+      <section id="ciclos">
+        <div class="section-title">Conheça nossos ciclos</div>
+        <div class="two-col">
+          <div>
+            <h3 style="margin:0 0 8px">Educação Infantil & 1ºs anos</h3>
+            <p class="text-muted">Ambientes preparados para o desenvolvimento inicial, com atividades lúdicas e formação humana.</p>
+
+            <h3 style="margin:14px 0 8px">Ensino Fundamental</h3>
+            <p class="text-muted">Anos Iniciais (2º ao 5º) e Anos Finais (6º ao 9º) com currículo integrado e abordagens ativas.</p>
+
+            <h3 style="margin:14px 0 8px">Ensino Médio</h3>
+            <p class="text-muted">Formação completa com foco em vestibulares e competências para a vida adulta.</p>
+          </div>
+
+          <div>
+            <h4 class="section-title" style="font-size:16px">Imersão bilíngue</h4>
+            <p class="text-muted">
+              Oferecemos imersão bilíngue em parceria com a Cultura Inglesa: Drama, Música, contação de histórias e metodologias ativas para desenvolver fluência e confiança.
+            </p>
+
+            <h4 class="section-title" style="font-size:16px;margin-top:16px">Desenvolvimento de competências socioemocionais</h4>
+            <p class="text-muted">
+              Desde 2012 participamos do programa Líder em Mim, com reconhecimento internacional e certificação Legacy School — foco em autonomia, liderança e convivência harmoniosa.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="bilingue">
+        <div class="section-title">Currículo de Inovação Integrado</div>
+        <p class="text-muted">
+          A inovação está integrada à rotina escolar: pensamento computacional desplugado, cultura maker, prototipação, programação, desenvolvimento de aplicativos, letramento e segurança digital.
+          Somos Escola de Referência Google, com professores certificados pela Google for Education.
+        </p>
+      </section>
+
+      <section id="novo-predio">
+        <div class="section-title">Conheça o novo prédio do Ensino Médio (2026)</div>
+        <div class="building">
+          <div class="feature-card">
+            <h4 style="margin:0 0 8px">Estrutura moderna</h4>
+            <p class="text-muted">Projetado para até 600 alunos com arquitetura arrojada e ambientes que inspiram criatividade e colaboração.</p>
+            <ul class="features">
+              <li>Academia e quadra poliesportiva</li>
+              <li>Auditório para 550 pessoas</li>
+              <li>Plenária para debates e oratória</li>
+            </ul>
+          </div>
+
+          <div class="feature-card">
+            <h4 style="margin:0 0 8px">Espaços de aprendizagem</h4>
+            <p class="text-muted">Arena de aulas, laboratório multidisciplinar e lounges de bem-estar para socialização e aprendizado informal.</p>
+            <p style="margin-top:8px;color:var(--muted)">Equipe pedagógica especializada para preparar alunos para vestibulares e desafios da vida adulta.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="lider-em-mim">
+        <div class="section-title">Programa Líder em Mim</div>
+        <p class="text-muted">
+          Reconhecimento internacional e certificação Legacy School — fortalece competências socioemocionais, autoconfiança e protagonismo dos estudantes.
+        </p>
+      </section>
+
+      <section id="contato">
+        <div class="section-title">Endereço e Contato</div>
+        <p class="text-muted">
+          <strong class="address">R. Diogo Pereira, 324 - Vila Suzana, São Paulo - SP, 05750-130</strong><br>
+          Para informações sobre matrículas e visitas: <br>
+          Telefone: (11) 98980-5558 • Email: secretaria@colegioanglomorumbi.com.br
+        </p>
+
+        <div style="margin-top:14px">
+          <a class="cta" href="mailto:contato@anglomorumbi.edu.br">Entrar em contato</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>© Colégio Anglo Morumbi — Matrículas 2026</div>
+      <div style="color:var(--muted)">Design adaptado do material original</div>
+    </footer>
+  </div>
+</body>
+</html>
